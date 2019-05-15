@@ -106,8 +106,8 @@ public class DatabaseEngine {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Log.i("DE", "User List:");
-        Log.i("DE", user_list.toString());
+        // Log.i("DE", "User List:");
+        // Log.i("DE", user_list.toString());
 
         return user_list;
     }
