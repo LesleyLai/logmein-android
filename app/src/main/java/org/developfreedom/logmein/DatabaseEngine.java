@@ -102,6 +102,7 @@ public class DatabaseEngine {
             while (cursor.moveToNext()) {
                 user_list.add(cursor.getString(cursor.getColumnIndex(DatabaseOpenHelper.USERNAME)));
             }
+            // Hello world
             mDatabase.close();
         } catch (Exception e) {
             e.printStackTrace();
